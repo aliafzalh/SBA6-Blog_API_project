@@ -10,7 +10,7 @@ router.get(`/`, (req,res) => {
 
         
     }
-    res.send('server', locals)
+    res.render('index', locals)
 })
 
 function insertPostData(){
